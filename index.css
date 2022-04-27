@@ -1,0 +1,161 @@
+.img{
+	background-image:url("img/img1.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	height: 800px;
+	width: 100%;
+}
+.img2{
+	background-image:url("img/img2.jpg");
+	background-repeat: no-repeat; 
+	margin-left:160px;
+	margin-top:8px;
+	padding-top:166px; 
+	height:410px;
+}
+.img3{
+	background-image:url("img/img3.jpg");
+	background-size:cover;
+	height: 750px;
+}
+.img4{
+	background-image: url("img/img4.jpg");
+	background-repeat: no-repeat; 
+	height: 466px;
+	width: 50%;
+}
+.img5{
+	background-image: url("img/img5.jpg");
+	background-repeat: no-repeat; 
+	height: 466px;
+	width: 50%;
+}
+.photo{
+	display:flex;
+	flex-direction: row;
+}
+.cimg{
+	padding-left:900px;
+	padding-top:255px;
+	padding-right:97px;
+	text-align: right;
+
+}
+h1{
+	font-family: sans-serif;
+	font-weight: 900;
+}
+a{
+	border:1px solid gold;
+	border-radius:3px;
+	color: gold;
+}
+p{
+	text-align:center;
+}
+.trap{
+	border: 1px ;
+	border-radius: 2px;
+	background-color: black;
+	color: white;
+	opacity: 60%;
+	height: 250px;
+	width: 600px;
+	margin-left: 30px;
+	margin-top:30px;
+	padding-top: 150px;
+}
+.footer{
+		display:flex;
+	flex-direction: row;
+}
+.footer1{
+	padding-left: 469px;
+}
+.footer2{
+	margin-right: 470px;
+	padding-left: 120px;
+}
+
+.box{
+	height: 153px; 
+	width:440px;
+   border: 1px ;
+   margin-left:496px;
+   background-color:#303a45;
+   border-radius:2px;
+   color:#48c3f9;
+}
+.content{
+		padding-left:257px;
+		padding-right:257px;
+}
+@media (max-width:800px){
+ .flex-container{
+		flex-direction: column;
+		flex-wrap:wrap;
+	}
+	.img{
+		height: 175px;
+	}
+	.img2{
+		background-size: 100% 100%;
+		padding-right: 27px;
+    	height: 100px;
+    	width: 198px;
+    	margin: 15px
+	}
+	.cimg{
+	padding-left:178px;
+	padding-top:30px;
+
+}
+  .cimg img{
+  	width: 100px;
+  	padding-left: 30px;
+    padding-top: 0px;
+  }
+.content{
+		padding-left:0px;
+		padding-right:0px;
+}
+.img3{
+	height: 193px;
+}
+.img4{
+	background-size: 100% 100%;
+	height: 170px;
+    width: 170px;
+}
+.img5{
+	background-size: 100% 100%;
+	height: 170px;
+    width: 170px;
+}
+.trap{
+	height: 143px;
+    width: 153px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-top: 8px;
+}
+.box{
+	height: 89px;
+    width: 186px;
+    margin-left:147px;
+    margin-top: -103px;
+}
+#h{
+	font-size: 12px;
+	padding-left: 0px;
+    padding-top: 2px;
+    width: 130px;
+}
+.footer1{
+	padding-left: 0px;
+}
+.footer2{
+	margin-right: 0px;
+	padding-left: 0px;
+}
+}
